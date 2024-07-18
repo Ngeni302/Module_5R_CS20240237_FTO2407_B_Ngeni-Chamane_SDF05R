@@ -29,6 +29,7 @@ p {
     font-size: 18px;
     color: #676767;
     margin-bottom: 40px;
+
 }
 
 .custom-btn {
@@ -49,6 +50,30 @@ p {
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
+}
+.btn-1:hover{
+    height: 70px;
+    width:170px;
+    letter-spacing:5px;
+    border:black;
+    background-color: aquamarine;
+    
+}
+
+.btn-2:hover{
+    height: 70px;
+    width:170px;
+    letter-spacing:5px;
+    border:#eeefed;
+    background-color:bisque;
+}
+
+.btn-3:hover{
+    height: 70px;
+    width:170px;
+    letter-spacing:5px;
+    border:#eeefed;
+    background-color:pink;
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
