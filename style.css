@@ -51,29 +51,33 @@ p {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
-.btn-1:hover{
+.btn-1:hover{/*hover effect scales button box,changes font and background colour*/
     height: 70px;
     width:170px;
-    letter-spacing:5px;
+    font-weight: bold;
+    color: purple;
     border:black;
     background-color: aquamarine;
     
 }
 
-.btn-2:hover{
+.btn-2:hover{ /* hover effect scales button box, changes colour and increases letter spacing.*/
     height: 70px;
     width:170px;
     letter-spacing:5px;
     border:#eeefed;
     background-color:bisque;
+    background-image: linear-gradient(red, yellow);
+    font-weight: bold;
 }
 
-.btn-3:hover{
+.btn-3:hover{/*hover effect scales button box,solidifies the border to a purple and makes font bold*/ 
     height: 70px;
     width:170px;
-    letter-spacing:5px;
     border:#eeefed;
     background-color:pink;
+    border: 5px solid purple;
+    font-weight:bold ;
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
